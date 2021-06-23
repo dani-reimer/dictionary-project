@@ -1,3 +1,16 @@
 .results {
-    margin-top: 25px;
+  margin-top: 25px;
+  max-width: 75%;
+}
+
+.results-word {
+  color: violet;
+}
+
+.meaning-partOfSpeech {
+  font-size: 16px;
+}
+
+.synonym {
+  margin-bottom: 12px;
 }
