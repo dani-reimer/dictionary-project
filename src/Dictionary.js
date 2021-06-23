@@ -21,10 +21,10 @@ export default function Dictionary() {
     }
     return (
         <div className="dictionary">
-            <form onSubmit={search}>
-                <input type="search" placeholder="type something..." onChange={handleKeywordChange}/>
-                <input type="submit" className="btn btn-primary shadow" />
-            </form>
+            <div className="input-group mb-3">
+            <form className="row g-1" onSubmit={search}>
+                <input type="search" className="form-control" placeholder="type something..." aria-label="Recipient's username" aria-describedby="button-addon2" onChange={handleKeywordChange}/><button className="btn btn-primary shadow mb-3" id="button-addon2">Search</button> 
+            </form></div>
             <Results results={results}/>
        </div>
    ) 
