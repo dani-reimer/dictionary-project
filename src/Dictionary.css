@@ -1,1 +1,16 @@
+.dictionary section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 12px 12px rgb(0 0 0 / 10%);
+    margin-top: 25px;
+    max-width: 60%;
+  
+}
+.form {
+    margin: 0 auto;
+}
 
+.dictionary input {
+    width: 100%;
+}

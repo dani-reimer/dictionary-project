@@ -9,7 +9,6 @@ export default function App() {
         <h1>Dictionary</h1>
         </header>
         <main>
-              <h4>What word would you like to look up?</h4>
           <Dictionary />
         </main>
         <footer className="App-footer">

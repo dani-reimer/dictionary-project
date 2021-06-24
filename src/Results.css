@@ -1,10 +1,16 @@
-.results {
+.results section {
   margin-top: 25px;
-  max-width: 75%;
+  max-width: 60%;
+padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 12px 12px rgb(0 0 0 / 10%);
+    margin-top: 25px;
+
 }
 
 .results-word {
-  color: violet;
+  color: #FF7272;
+  font-weight: 800;
 }
 
 .meaning-partOfSpeech {
@@ -13,4 +19,8 @@
 
 .synonym {
   margin-bottom: 12px;
+}
+
+.phonetics {
+font-size: 18px;
 }
