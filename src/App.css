@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Ultra");
 
 body {
-  background-color: rgba(255, 201, 107, 0.048);
+  background-color: rgba(252, 247, 219, 0.253);
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 header {
@@ -9,10 +11,9 @@ header {
 }
 
 h1 {
-  color: rgb(255, 201, 107, 0.7);
+  color: rgb(255, 201, 107);
   font-family: "Ultra";
   text-align: center;
-  max-width: 60%;
 }
 
 a {
@@ -21,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #526ba1; 
+  color: #526ba1;
   transition: all 200ms ease-in-out;
 }
 
@@ -39,5 +40,4 @@ a:hover {
 .App-footer {
   text-align: center;
   margin: 25px 0;
-  max-width: 60%;
 }

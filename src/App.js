@@ -12,7 +12,7 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small><a href="https://github.com/dani-reimer/dictionary-project">Open-source code</a> by Dani Reimer</small>
+          <small><a href="https://github.com/dani-reimer/dictionary-project" rel="noreferrer" target="_blank">Open-source code</a> by <a href="https://www.linkedin.com/in/dani-reimer-07180a188/" target="_blank" rel="noreferrer">Dani Reimer</a></small>
         </footer>
     </div></div>
   );
