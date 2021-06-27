@@ -1,0 +1,25 @@
+ul {
+    margin: 0;
+    padding: 0;
+    
+}
+.synonym {
+display: inline-block;
+
+}
+.synonym li {
+   list-style: none;
+   padding-right: 15px;
+   padding-left: 5px;
+   padding-bottom: 14px;
+    text-align: center;
+   font-size: 14px;
+   opacity: .7;
+  
+   
+}
+
+.similar {
+    font-size: 14px;
+   opacity: .7;
+}

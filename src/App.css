@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Ultra");
 
 body {
-  background-color: rgba(255, 201, 107, 0.13);
+  background-color: rgba(255, 201, 107, 0.048);
 }
 
 header {
@@ -20,13 +20,20 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #526ba1; 
+  transition: all 200ms ease-in-out;
+}
+
 .btn-primary {
   background-color: #6886c5;
   border-style: none;
+  margin-top: 10px;
 }
 
 .btn-primary:hover {
-  background-color: #5873aa;
+  background-color: #5c78b6;
+  transition: all 200ms ease-in-out;
 }
 
 .App-footer {
